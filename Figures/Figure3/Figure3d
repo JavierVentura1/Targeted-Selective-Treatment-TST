@@ -1,0 +1,22 @@
+library(dplyr)
+library(readr)
+library(lubridate)
+ThemeEM_XY <- theme_bw() +
+  theme(strip.text.x = element_text(size = 12, face = "bold"),
+        strip.text.y = element_text(size = 12, face = "bold"),
+        axis.title.x = element_text(size=14, face = "bold"),
+        axis.title.y = element_text(size=14, face = "bold"),
+        axis.text = element_text(size=12),
+        legend.title = element_text(size=14, face = "bold"),
+        legend.text = element_text(size=12),
+        panel.grid.major = element_line(colour = "NA", size = 0.2),
+        panel.grid.minor = element_line(colour = "NA", size = 0.1),
+        strip.background = element_rect(color="black", fill="NA", size=0.5, linetype="solid"),
+        panel.border = element_rect(linetype = "blank", fill = NA),
+        axis.line = element_line(size = 0.5, colour = "black"))
+Mana <- read_csv("Mana.csv")
+Mana$Management <-factor(Mana$Management, levels = c("Whole herd", "TST-Drug", "TST-Plant&Drug"))
+inter2<-ggplot(data = Mana,aes(x=Management, y= Frequency, fill=Management))+
+  geom_bar(stat="identity", position = "dodge")+
+  labs(x = "Deworming management", y = "Anthelmintic doses/year")
+inter2
