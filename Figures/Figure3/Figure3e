@@ -1,0 +1,25 @@
+library(dplyr)
+library(readr)
+library(lubridate)
+ThemeEM_XY <- theme_bw() +
+  theme(strip.text.x = element_text(size = 12, face = "bold"),
+        strip.text.y = element_text(size = 12, face = "bold"),
+        axis.title.x = element_text(size=14, face = "bold"),
+        axis.title.y = element_text(size=14, face = "bold"),
+        axis.text = element_text(size=12),
+        legend.title = element_text(size=14, face = "bold"),
+        legend.text = element_text(size=12),
+        panel.grid.major = element_line(colour = "NA", size = 0.2),
+        panel.grid.minor = element_line(colour = "NA", size = 0.1),
+        strip.background = element_rect(color="black", fill="NA", size=0.5, linetype="solid"),
+        panel.border = element_rect(linetype = "blank", fill = NA),
+        axis.line = element_line(size = 0.5, colour = "black"))
+grams <- read_csv("grams.csv")
+grams$Plant <-factor(grams$Plant, levels = c("Ficus ingens", "Commiphora africana", "Gmelina arborea"))
+grams$Treatment <-factor(grams$Treatment, levels = c("Whole herd", "TST-Plant"))
+grams1<-ggplot(data=grams, aes(x =Treatment, y=kg, fill =Plant))+
+  geom_bar(position= "stack", stat = "identity")+
+  labs(y = "Tonnes provided / year", x = "Plant supplementation")+
+  annotate("text", x=1, y=5750, label= "N=5.64 t") + 
+  annotate("text", x = 2, y=300, label = "N=0.13 t")+ThemeEM_XY
+grams1
