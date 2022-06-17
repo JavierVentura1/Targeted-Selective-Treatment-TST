@@ -1,0 +1,21 @@
+library(survival)
+library(ggplot2)
+library(ggpubr)
+library(survminer)
+library(lubridate)
+library(Rcpp)
+library(writexl)
+library(carData)
+library(glmmTMB)
+library(broom)
+library(readr)
+fit6 <- survfit(Surv(Time, Status) ~ plant, data = surv2021)
+ggsurv <- ggsurvplot(fit6, fun = "pct", conf.int = TRUE, pval = TRUE,palette = c("#8AC53F",
+                                                                                 "#438C3E","#004D2A"),
+                     ggtheme = theme_bw())
+
+ggsurv$plot +theme_bw() + 
+  theme (legend.position = "bottom")+
+  scale_y_continuous(breaks=c(0,10,20,30,40,50,60,70,80,90,100))+
+  scale_x_continuous(breaks=c(0,50,100,150,200,250,300,350,400))+
+  facet_grid(~plant)
