@@ -1,0 +1,46 @@
+Time,Climate,Mean,SD
+Jan-20,Min temp,17.85,0.033
+Feb-20,Min temp,17.745,0.785
+Mar-20,Min temp,16.748,1.58
+Apr-20,Min temp,15.199,1.707
+May-20,Min temp,11.923,3.05
+Jun-20,Min temp,10.502,1.527
+Jul-20,Min temp,9.485,1.942
+Aug-20,Min temp,12.107,2.976
+Sep-20,Min temp,14.708,2.441
+Oct-20,Min temp,17.005,1.71
+Nov-20,Min temp,18.6,1.638
+Dec-20,Min temp,18.43,1.18
+Jan-21,Min temp,17.694,1.047
+Feb-21,Min temp,18.134,1.472
+Mar-21,Min temp,16.793,2.818
+Jan-20,Max temp,21.757,1.36
+Feb-20,Max temp,24.359,2.238
+Mar-20,Max temp,24.397,2.08
+Apr-20,Max temp,24.432,2.204
+May-20,Max temp,23.525,2.768
+Jun-20,Max temp,18.992,3.452
+Jul-20,Max temp,17.362,3.415
+Aug-20,Max temp,25.669,3.534
+Sep-20,Max temp,28.408,3.47
+Oct-20,Max temp,29.363,2.804
+Nov-20,Max temp,32.416,2.802
+Dec-20,Max temp,27.589,2.18
+Jan-21,Max temp,26.796,2.046
+Feb-21,Max temp,27.782,1.956
+Mar-21,Max temp,25.963,1.524
+Jan-20,Precipitation,10.306,4.129
+Feb-20,Precipitation,7.534,10.441
+Mar-20,Precipitation,1.193,3.242
+Apr-20,Precipitation,0.204,1.013
+May-20,Precipitation,0.27,1.361
+Jun-20,Precipitation,0.026,0.111
+Jul-20,Precipitation,0.028,0.155
+Aug-20,Precipitation,0,0
+Sep-20,Precipitation,0,0
+Oct-20,Precipitation,0.843,2.602
+Nov-20,Precipitation,0.136,0.431
+Dec-20,Precipitation,6.318,7.225
+Jan-21,Precipitation,8.763,12.292
+Feb-21,Precipitation,13.646,21.401
+Mar-21,Precipitation,1.34,1.536
