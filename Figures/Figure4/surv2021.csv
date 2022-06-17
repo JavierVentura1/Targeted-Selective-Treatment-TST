@@ -1,0 +1,198 @@
+Location,TST,Tag,plant,farm,tx2,month2,Time,Status,plantx,plantreal,season,plantx2,plantx3
+MAZINGA,Plant,1,Ficus ingens,P1,plantpl,1,1,1,1,1,Rainy,1,1
+MAZINGA,Plant,2,Ficus ingens,P1,plantpl,1,1,1,1,1,Rainy,1,1
+MAZINGA,Plant,3,Ficus ingens,P1,nonepl,2,14,1,0,0,Rainy,0,0
+MAZINGA,Plant,6,Ficus ingens,P2,nonepl,2,238,2,0,0,Rainy,0,0
+MAZINGA,Plant,7,Ficus ingens,P2,nonepl,2,280,2,0,0,Rainy,0,0
+MAZINGA,Plant,8,Ficus ingens,P2,,7,154,1,2,2,Dry,2,2
+MAZINGA,Plant,9,Ficus ingens,P2,,12,84,1,3,3,Rainy,3,3
+MAZINGA,Plant,12,Ficus ingens,P3,nonepl,1,392,1,1,1,Rainy,1,1
+MAZINGA,Plant,13,Ficus ingens,P3,,12,322,1,4,4,Rainy,4+,4+
+MAZINGA,Plant,14,Ficus ingens,P3,,6,126,1,6,6,Dry,4+,4+
+MAZINGA,Plant,18,Ficus ingens,P4,,12,294,2,3,3,Rainy,3,3
+MAZINGA,Plant,19,Ficus ingens,P4,,10,126,2,4,4,Dry,4+,4+
+MAZINGA,Plant,20,Ficus ingens,P4,,2,14,2,0,0,Rainy,0,0
+MAZINGA,Plant,24,Ficus ingens,P5,,4,84,1,0,0,Dry,0,0
+MAZINGA,Plant,25,Ficus ingens,P5,,7,168,1,0,0,Dry,0,0
+MAZINGA,Plant,26,Ficus ingens,P5,,7,56,2,1,1,Dry,1,1
+MAZINGA,Plant,30,Commiphora africana,P6,drugpl,2,364,2,6,6,Rainy,4+,4+
+MAZINGA,Plant,31,Commiphora africana,P6,plantpl,2,364,1,11,11,Rainy,4+,4+
+MAZINGA,Plant,32,Ficus ingens,P6,nonepl,2,364,1,3,3,Rainy,3,3
+MAZINGA,Plant,35,Ficus ingens,P7,nonepl,2,364,1,2,2,Rainy,2,2
+MAZINGA,Plant,36,Ficus ingens,P7,,1,336,1,5,5,Rainy,4+,4+
+MAZINGA,Plant,37,Ficus ingens,P7,nonepl,2,364,1,0,0,Rainy,0,0
+MAZINGA,Plant,38,Ficus ingens,P7,,5,84,1,1,1,Dry,1,1
+MAZINGA,Plant,41,Commiphora africana,P9,nonepl,2,294,1,2,2,Rainy,2,2
+MAZINGA,Plant,42,Commiphora africana,P9,nonepl,2,294,1,1,1,Rainy,1,1
+MAZINGA,Plant,43,Commiphora africana,P9,nonepl,2,294,1,6,6,Rainy,4+,4+
+MAZINGA,Plant,44,Commiphora africana,P9,nonepl,2,294,1,0,0,Rainy,0,0
+MAZINGA,Plant,45,Ficus ingens,P8,,11,182,1,0,0,Rainy,0,0
+MAZINGA,Plant,46,Ficus ingens,P8,,1,266,1,1,1,Rainy,1,1
+MAZINGA,Plant,47,Ficus ingens,P8,,12,224,1,0,0,Rainy,0,0
+MAZINGA,Plant,48,Ficus ingens,P8,nonepl,2,84,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,50,Gmelina arborea,P15,nonepl,3,393,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,51,Gmelina arborea,P15,nonepl,3,1,2,0,0,Rainy,0,0
+CHINKHOWE,Plant,52,Gmelina arborea,P15,,6,141,1,2,2,Dry,2,2
+CHINKHOWE,Plant,53,Gmelina arborea,P15,nonepl,3,393,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,54,Gmelina arborea,P15,nonepl,3,126,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,57,Ficus ingens,P16,nonepl,3,393,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,58,Ficus ingens,P16,,6,127,1,1,1,Dry,1,1
+CHINKHOWE,Plant,59,Ficus ingens,P16,nonepl,3,393,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,60,Ficus ingens,P16,nonepl,3,196,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,61,Ficus ingens,P16,nonepl,3,112,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,63,Gmelina arborea,P17,nonepl,3,323,2,3,3,Rainy,3,3
+CHINKHOWE,Plant,64,Gmelina arborea,P17,nonepl,3,393,1,1,1,Rainy,1,1
+CHINKHOWE,Plant,65,Gmelina arborea,P17,plantpl,3,393,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,66,Gmelina arborea,P17,,2,365,1,5,5,Rainy,4+,4+
+CHINKHOWE,Plant,67,Gmelina arborea,P17,nonepl,3,393,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,68,Gmelina arborea,P17,nonepl,3,393,1,4,4,Rainy,4+,4+
+CHINKHOWE,Plant,72,Gmelina arborea,P18,plantpl,3,14,2,1,1,Rainy,1,1
+CHINKHOWE,Plant,73,Gmelina arborea,P18,nonepl,3,393,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,74,Gmelina arborea,P18,nonepl,3,1,2,0,0,Rainy,0,0
+CHINKHOWE,Plant,75,Gmelina arborea,P18,plantpl,3,1,2,0,0,Rainy,0,0
+CHINKHOWE,Plant,79,Commiphora africana,P19,,9,226,1,5,5,Dry,4+,4+
+CHINKHOWE,Plant,80,Commiphora africana,P19,,2,28,2,2,2,Rainy,2,2
+CHINKHOWE,Plant,81,Commiphora africana,P19,,2,267,2,6,6,Rainy,4+,4+
+CHINKHOWE,Plant,82,Commiphora africana,P19,,2,1,2,0,0,Rainy,0,0
+CHINKHOWE,Plant,86,Ficus ingens,P20,nonepl,3,393,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,87,Ficus ingens,P20,nonepl,3,393,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,91,Commiphora africana,P21,,6,28,2,0,0,Dry,0,0
+CHINKHOWE,Plant,92,Commiphora africana,P21,,6,1,2,0,0,Dry,0,0
+CHINKHOWE,Plant,93,Commiphora africana,P21,nonepl,3,14,2,1,1,Rainy,1,1
+CHINKHOWE,Plant,95,Ficus ingens,P22,nonepl,3,167,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,96,Ficus ingens,P22,,9,43,1,2,2,Dry,2,2
+CHINKHOWE,Plant,97,Ficus ingens,P22,nonepl,3,393,1,5,5,Rainy,4+,4+
+CHINKHOWE,Plant,98,Ficus ingens,P22,,7,155,1,0,0,Dry,0,0
+CHINKHOWE,Plant,99,Ficus ingens,P22,nonepl,3,393,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,100,,D1,,2,28,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,101,,D1,nonedr,2,392,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,102,,D1,,10,56,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,105,,D3,nonedr,2,392,1,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,106,,D3,nonedr,2,378,2,5,0,Rainy,4+,0
+KAMCHEZERA,Drug,107,,D3,,12,266,2,2,0,Rainy,2,0
+KAMCHEZERA,Drug,108,,D3,nonedr,2,1,2,0,0,Rainy,0,0
+KAMCHEZERA,Drug,111,,D6,,2,378,1,3,0,Rainy,3,0
+KAMCHEZERA,Drug,114,,D7,,4,70,1,2,0,Rainy,2,0
+KAMCHEZERA,Drug,115,,D7,,4,56,2,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,116,,D7,,3,56,1,5,0,Rainy,4+,0
+MKWINDA,Drug,120,,D11,,4,85,1,3,0,Dry,3,0
+MKWINDA,Drug,121,,D11,nonedr,3,393,1,2,0,Rainy,2,0
+MKWINDA,Drug,122,,D11,nonedr,3,393,1,0,0,Rainy,0,0
+MKWINDA,Drug,123,,D11,nonedr,3,393,1,2,0,Rainy,2,0
+MKWINDA,Drug,128,,D12,,3,42,1,3,0,Rainy,3,0
+MKWINDA,Drug,132,,D14,nonedr,3,393,1,3,0,Rainy,3,0
+MKWINDA,Drug,135,,D16,,8,183,1,1,0,Dry,1,0
+MKWINDA,Drug,136,,D16,nonedr,3,393,1,1,0,Rainy,1,0
+MKWINDA,Drug,137,,D16,,12,323,1,2,0,Rainy,2,0
+KAMCHEZERA,Drug,138,,D7,nonedr,2,42,2,1,0,Rainy,1,0
+KAMCHEZERA,Drug,139,,D7,,4,28,2,2,0,Rainy,2,0
+KAMCHEZERA,Drug,140,,D9,nonedr,2,224,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,141,,D9,,2,210,1,0,0,Rainy,0,0
+MKWINDA,Drug,142,,D17,nonedr,3,1,2,0,0,Rainy,0,0
+MKWINDA,Drug,143,,D17,nonedr,3,365,1,1,0,Rainy,1,0
+MKWINDA,Drug,150,,D18,,3,14,1,1,0,Rainy,1,0
+MKWINDA,Drug,151,,D18,,3,14,1,1,0,Rainy,1,0
+MKWINDA,Drug,152,,D18,nonedr,3,351,1,3,0,Rainy,3,0
+MKWINDA,Drug,153,,D18,nonedr,3,322,1,1,0,Rainy,1,0
+MKWINDA,Drug,156,,D13,,11,56,1,0,0,Rainy,0,0
+MAZINGA,Plant,200,Ficus ingens,P10,nonepl,2,1,2,0,0,Rainy,0,0
+MAZINGA,Plant,201,Ficus ingens,P10,nonepl,2,224,1,0,0,Rainy,0,0
+MAZINGA,Plant,205,Ficus ingens,P11,drugpl,2,238,2,5,5,Rainy,4+,4+
+MAZINGA,Plant,206,Ficus ingens,P11,,10,1,2,0,0,Dry,0,0
+MAZINGA,Plant,207,Ficus ingens,P11,,7,14,1,0,0,Dry,0,0
+MAZINGA,Plant,210,Ficus ingens,P12,nonepl,2,196,1,1,1,Rainy,1,1
+MAZINGA,Plant,211,Ficus ingens,P12,nonepl,2,196,1,0,0,Rainy,0,0
+MAZINGA,Plant,212,Ficus ingens,P12,nonepl,2,84,2,0,0,Rainy,0,0
+MAZINGA,Plant,213,Ficus ingens,P12,plantpl,2,196,1,3,3,Rainy,3,3
+MAZINGA,Plant,214,Ficus ingens,P12,nonepl,2,112,1,0,0,Rainy,0,0
+MAZINGA,Plant,215,Ficus ingens,P12,nonepl,2,98,1,1,1,Rainy,1,1
+MAZINGA,Plant,217,Commiphora africana,P13,nonepl,2,140,1,0,0,Rainy,0,0
+MAZINGA,Plant,218,Commiphora africana,P13,,2,98,2,0,0,Rainy,0,0
+MAZINGA,Plant,219,Commiphora africana,P13,nonepl,2,140,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,300,Ficus ingens,P23,nonepl,3,393,1,2,2,Rainy,2,2
+CHINKHOWE,Plant,301,Ficus ingens,P23,,8,183,1,0,0,Dry,0,0
+CHINKHOWE,Plant,302,Ficus ingens,P23,nonepl,3,393,1,1,1,Rainy,1,1
+CHINKHOWE,Plant,303,Ficus ingens,P23,nonepl,3,98,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,305,Ficus ingens,P24,,11,55,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,306,Ficus ingens,P24,nonepl,3,167,1,0,0,Rainy,0,0
+CHINKHOWE,Plant,602,Ficus ingens,P20,,10,27,1,0,0,Dry,0,0
+MKWINDA,Drug,10757,,D17,nonedr,3,365,1,3,0,Rainy,3,0
+KAMCHEZERA,Drug,26058,,D8,nonedr,2,322,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26059,,D8,nonedr,2,322,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26060,,D8,,7,98,1,1,0,Dry,1,0
+KAMCHEZERA,Drug,26065,,D1,nonedr,2,392,1,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,26075,,D5,nonedr,2,1,2,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26077,,D6,,6,126,1,0,0,Dry,0,0
+KAMCHEZERA,Drug,26085,,D27,drugdr,2,112,2,0,0,Rainy,0,0
+MKWINDA,Drug,26383,,D15,nonedr,3,169,2,2,0,Rainy,2,0
+MKWINDA,Drug,26437,,D13,,8,183,1,3,0,Dry,3,0
+KAMCHEZERA,Drug,26529,,D4,nonedr,2,392,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26549,,D3,nonedr,2,1,2,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26552,,D6,,1,350,1,6,0,Rainy,4+,0
+KAMCHEZERA,Drug,26553,,D6,,9,1,2,0,0,Dry,0,0
+KAMCHEZERA,Drug,26558,,D26,nonedr,2,168,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26559,,D26,nonedr,2,112,2,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26560,,D26,,1,112,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26607,,D1,nonedr,2,112,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26608,,D1,nonedr,2,112,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26624,,D27,nonedr,2,112,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,26625,,D27,nonedr,2,112,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26626,,D25,,10,1,2,0,0,Dry,0,0
+KAMCHEZERA,Drug,26627,,D25,,9,28,1,0,0,Dry,0,0
+KAMCHEZERA,Drug,26628,,D25,drugdr,2,126,2,3,0,Rainy,3,0
+KAMCHEZERA,Drug,26629,,D25,,10,1,2,0,0,Dry,0,0
+KAMCHEZERA,Drug,26630,,D25,nonedr,2,98,2,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,26631,,D25,,9,14,2,1,0,Dry,1,0
+KAMCHEZERA,Drug,26632,,D25,drugdr,2,14,2,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26633,,D25,nonedr,2,98,2,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,26634,,D25,,1,84,2,1,0,Rainy,1,0
+KAMCHEZERA,Drug,26640,,D9,,8,42,1,2,0,Dry,2,0
+KAMCHEZERA,Drug,26643,,D25,nonedr,2,84,2,2,0,Rainy,2,0
+KAMCHEZERA,Drug,26655,,D1,,12,14,1,0,0,Rainy,0,0
+MKWINDA,Drug,26909,,D12,nonedr,3,196,1,0,0,Rainy,0,0
+MKWINDA,Drug,26910,,D12,,9,239,1,4,0,Dry,4+,0
+MKWINDA,Drug,27049,,D15,,8,42,2,0,0,Dry,0,0
+MKWINDA,Drug,27097,,D11,,1,168,1,1,0,Rainy,1,0
+MKWINDA,Drug,27098,,D11,nonedr,3,210,1,0,0,Rainy,0,0
+MKWINDA,Drug,27104,,D13,nonedr,3,182,1,0,0,Rainy,0,0
+MKWINDA,Drug,27106,,D13,,1,168,1,1,0,Rainy,1,0
+MAZINGA,Plant,94713,Ficus ingens,P1,nonepl,1,1,1,0,0,Rainy,0,0
+MAZINGA,Plant,94714,Ficus ingens,P1,nonepl,2,14,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,95225,,D8,nonedr,2,322,1,2,0,Rainy,2,0
+KAMCHEZERA,Drug,95341,,D2,,8,210,1,1,0,Dry,1,0
+KAMCHEZERA,Drug,95463,,D1,nonedr,2,392,1,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,95508,,D10,,9,56,1,0,0,Dry,0,0
+MAZINGA,Plant,95601,Commiphora africana,P13,nonepl,2,28,2,0,0,Rainy,0,0
+MAZINGA,Plant,95627,Ficus ingens,P3,,1,1,2,0,0,Rainy,0,0
+MAZINGA,Plant,95646,Ficus ingens,P10,plantpl,2,224,1,1,1,Rainy,1,1
+MAZINGA,Plant,95655,Ficus ingens,P4,,4,70,1,4,4,Rainy,4+,4+
+MKWINDA,Drug,95692,,D12,nonedr,3,393,1,4,0,Rainy,4+,0
+MKWINDA,Drug,97890,,D11,nonedr,3,1,2,0,0,Rainy,0,0
+MKWINDA,Drug,97895,,D11,nonedr,3,393,1,2,0,Rainy,2,0
+KAMCHEZERA,Drug,97957,,D10,nonedr,2,224,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,98021,,D27,drugdr,2,112,2,3,0,Rainy,3,0
+MKWINDA,Drug,98175,,D18,nonedr,3,351,1,0,0,Rainy,0,0
+MKWINDA,Drug,98263,,D15,nonedr,3,127,2,5,0,Rainy,4+,0
+MKWINDA,Drug,98266,,D15,,5,113,1,0,0,Dry,0,0
+KAMCHEZERA,Drug,98453,,D26,,9,14,1,0,0,Dry,0,0
+KAMCHEZERA,Drug,98465,,D26,,1,98,2,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,98481,,D7,,4,42,2,2,0,Rainy,2,0
+MKWINDA,Drug,98580,,D13,nonedr,3,393,1,4,0,Rainy,4+,0
+KAMCHEZERA,Drug,98880,,D7,,5,98,1,4,0,Dry,4+,0
+MAZINGA,Plant,98896,Ficus ingens,P1,nonepl,1,1,1,0,0,Rainy,0,0
+MAZINGA,Plant,98897,Ficus ingens,P1,nonepl,1,1,1,0,0,Rainy,0,0
+MKWINDA,Drug,99081,,D11,drugdr,3,28,2,2,0,Rainy,2,0
+MKWINDA,Drug,99083,,D14,nonedr,3,42,2,3,0,Rainy,3,0
+MKWINDA,Drug,99084,,D14,,4,85,1,5,0,Dry,4+,0
+MKWINDA,Drug,99316,,D13,,12,309,1,3,0,Rainy,3,0
+KAMCHEZERA,Drug,99340,,D2,nonedr,2,392,1,1,0,Rainy,1,0
+KAMCHEZERA,Drug,99380,,D25,nonedr,2,182,1,0,0,Rainy,0,0
+KAMCHEZERA,Drug,99455,,D2,nonedr,2,392,1,1,0,Rainy,1,0
+MKWINDA,Drug,99514,,D14,nonedr,3,393,1,2,0,Rainy,2,0
+MKWINDA,Drug,99515,,D14,nonedr,3,393,1,0,0,Rainy,0,0
+MKWINDA,Drug,140m,,D17,nonedr,3,365,1,2,0,Rainy,2,0
+MKWINDA,Drug,141m,,D17,nonedr,3,14,2,1,0,Rainy,1,0
+MAZINGA,Plant,14new,Ficus ingens,P3,nonepl,2,84,1,0,0,Rainy,0,0
+MKWINDA,Drug,17TD6,,D12,,11,239,2,1,0,Rainy,1,0
+MKWINDA,Drug,24TD1,,D11,drugdr,3,337,2,5,0,Rainy,4+,0
+MAZINGA,Plant,black 94,Ficus ingens,P1,nonepl,1,1,1,0,0,Rainy,0,0
