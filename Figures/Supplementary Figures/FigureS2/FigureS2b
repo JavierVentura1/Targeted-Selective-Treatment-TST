@@ -1,0 +1,23 @@
+library(dplyr)
+library(readr)
+library(lubridate)
+ThemeEM_XY <- theme_bw() +
+  theme(strip.text.x = element_text(size = 12, face = "bold"),
+        strip.text.y = element_text(size = 12, face = "bold"),
+        axis.title.x = element_text(size=14, face = "bold"),
+        axis.title.y = element_text(size=14, face = "bold"),
+        axis.text = element_text(size=12),
+        legend.title = element_text(size=14, face = "bold"),
+        legend.text = element_text(size=12),
+        panel.grid.major = element_line(colour = "NA", size = 0.2),
+        panel.grid.minor = element_line(colour = "NA", size = 0.1),
+        strip.background = element_rect(color="black", fill="NA", size=0.5, linetype="solid"),
+        panel.border = element_rect(linetype = "blank", fill = NA),
+        axis.line = element_line(size = 0.5, colour = "black"))
+d3 <- read_csv("d3.csv")
+d3$time2 <-factor(d3$time2, levels = c("Jan-20", "Feb-20", "Mar-20", "Apr-20","May-20", "Jun-20","Jul-20","Aug-20","Sep-20","Oct-20","Nov-20","Dec-20", "Jan-21", "Feb-21", "Mar-21"))
+d3$BCS <-factor(d3$BCS, levels = c("3.5","3","2.5","2","1.5","1"))
+BCS<-ggplot(d3, aes(x = factor(time2), y = perc*100, fill = factor(BCS))) +
+  geom_bar(stat="identity", width = 0.7) +
+  labs(x = "Time", y = "Percentage (%)", fill = "BCS") + scale_fill_viridis_d(option = "turbo") +ThemeEM_XY+facet_grid(~TST)
+BCS
