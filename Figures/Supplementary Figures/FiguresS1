@@ -1,0 +1,10 @@
+ggplot(Plants, aes(Percent, Name, fill=Availability)) +
+  geom_col() +
+  ThemeEM_Facet +
+  xlab("Percent of responses") +
+  ylab("Plant name (local)") +
+  facet_grid(. ~ Season) +
+  coord_cartesian(xlim = c(0, 105)) +
+  scale_fill_manual(values=c('#E0EC89','#AED75D','#31655A')) +
+  theme(legend.position = "top") +
+  guides(fill=guide_legend(title="Seasonal availability"))
