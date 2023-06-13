@@ -19,5 +19,7 @@ d8$time2 <-factor(d8$time2, levels = c("Jan-20", "Feb-20", "Mar-20", "Apr-20","M
 d8$Status <-factor(d8$Status, levels = c("Healthy","Borderline","Sick"))
 stat<-ggplot(d8, aes(x = factor(time2), y = perc, fill = factor(Status))) +
   geom_bar(position="fill",stat="identity", width = 0.7) +
-  labs(x = "Time", y = "Percentage", fill = "Status") + scale_fill_viridis_d(option = "turbo") +
+  labs(x = "Time", y = "Percentage", fill = "Status") + scale_fill_manual(values = c(Sick = "#D61F26", Borderline = "#FFCB05",
+                                                                                     Healthy = "#DBE8F7")) +
   ThemeEM_XY+facet_grid(~TST)+scale_y_continuous(labels = scales::percent)
+stat
