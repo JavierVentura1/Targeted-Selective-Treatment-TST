@@ -7,7 +7,6 @@ ggplot(data=climalmean, aes(x=Time, y=Mean, group=Climate, color = Climate)) +
   geom_errorbar(aes(ymin=Mean-SD, ymax=Mean+SD), width=.1)+
   geom_line(aes(color = Climate))+
   geom_point(aes(colour = Climate)) +
-  ThemeEM_XY+
-  labs(fill="Climatic conditions")+
   theme(legend.position="top")+
-  facet_wrap(~Climate, ncol = 1)
+  scale_y_continuous("Temperature C", sec.axis = sec_axis(~ . , name = "Precipitation (mm)")) +
+  ThemeEM_XY
