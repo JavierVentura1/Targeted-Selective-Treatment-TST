@@ -19,5 +19,6 @@ d2$time2 <-factor(d2$time2, levels = c("Jan-20", "Feb-20", "Mar-20", "Apr-20","M
 d2$FAMACHA <-factor(d2$FAMACHA, levels = c("1","2","3","4","5"))
 fam<-ggplot(d2, aes(x = factor(time2), y = perc*100, fill = factor(FAMACHA))) +
   geom_bar(stat="identity", width = 0.7) +
-  labs(x = "Time", y = "FAMACHA (% score)", fill = "FAMACHA") + scale_fill_viridis_d(option = "turbo") +facet_grid(~TST)+ThemeEM_XY
+  labs(x = "Time", y = "FAMACHA (% score)", fill = "FAMACHA") + scale_fill_manual(values = c("#79CAF1", "#DBE8F7", "#FFCB05", "#D61F26", "#90191C")) +
+    facet_grid(~TST)+ThemeEM_XY
 fam
