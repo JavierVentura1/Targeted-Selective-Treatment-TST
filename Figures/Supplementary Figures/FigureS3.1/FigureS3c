@@ -17,6 +17,5 @@ ThemeEM_XY <- theme_bw() +
 d4 <- read_csv("d4.csv")
 d4$time2 <-factor(d4$time2, levels = c("Jan-20", "Feb-20", "Mar-20", "Apr-20","May-20", "Jun-20","Jul-20","Aug-20","Sep-20","Oct-20","Nov-20","Dec-20", "Jan-21", "Feb-21", "Mar-21"))
 d4$Nasal <-factor(d4$Nasal, levels = c("0","1"))
-nal<-ggplot(d4, aes(fill=Nasal, y=count, x=time2)) +
-  geom_bar(position="fill", stat="identity")+scale_fill_viridis_d(option = "turbo") + labs(x = "Time", y = "Nasal (% score)",fill = "Nasal") +ThemeEM_XY+facet_grid(~TST) 
-nal
+ggplot(d4, aes(fill=Nasal, y=count, x=time2)) +
+  geom_bar(position="fill", stat="identity") + labs(x = "Time", y = "Nasal (% score)",fill = "Nasal")+ scale_fill_manual(values = c("#FFFFFF", "#FFCB05"))+ThemeEM_XY+facet_grid(~TST) 
