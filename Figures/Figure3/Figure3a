@@ -14,13 +14,11 @@ ThemeEM_XY <- theme_bw() +
         strip.background = element_rect(color="black", fill="NA", size=0.5, linetype="solid"),
         panel.border = element_rect(linetype = "blank", fill = NA),
         axis.line = element_line(size = 0.5, colour = "black"))
-        swift <- read_csv("swift.csv")
-swift$Effect <-factor(swift$Effect, levels = c("Sick", "Borderline", "Healthy"))
-swif<-ggplot(data=swift, aes(x =Treatment, y=Frequency, fill =Effect))+
-  geom_bar(stat = "identity", position = "fill")+
-  labs(y = "Percentage")+
-  annotate("text", x=1, y=1.05, label= "N=44") + 
-  annotate("text", x = 2, y=1.05, label = "N=152")+
-  annotate("text", x = 3, y=1.05, label = "N=26")+
-  ThemeEM_XY+scale_y_continuous(labels = scales::percent)
-swif
+swift <- read_csv("swift.csv")
+swift$Status <-factor(swift$Status, levels = c("Healthy", "Borderline", "Sick"))
+swift$Treatment <-factor(swift$Treatment, levels = c("Drug", "Plant+Drug", "Plant"))
+ g <- ggplot(swift, aes(x=Frequency, y=Treatment, fill=Status)) +
+    geom_bar(stat="identity")+scale_fill_manual(values = c(Sick = "#D61F26", Borderline = "#FFCB05",
+                                                                                      Healthy = "#DBE8F7"))+ThemeEM_XY+expand_limits(x = 60) 
+  g
+
