@@ -1,0 +1,28 @@
+library(survival)
+library(ggplot2)
+library(ggpubr)
+library(survminer)
+library(lubridate)
+library(Rcpp)
+library(writexl)
+library(carData)
+library(glmmTMB)
+library(broom)
+library(readr)
+surv2021 <- read_csv("surv2021.csv")
+fitp<- survfit(Surv(Time, Status)~ TST, data = surv2021)
+ggsurvplot(fitp, data = surv2021,
+           conf.int = TRUE,
+           pval = TRUE,
+           fun = "pct",
+           risk.table = TRUE,
+           size = 1,
+           linetype = "strata",
+           palette = c("#000000",
+                       "#009771"),
+           legend = "bottom",
+           legend.title = "TST",
+           legend.labs = c("Drug",
+                           "Plant"))
+res.sum <- surv_summary(fitp)
+head(res.sum)
