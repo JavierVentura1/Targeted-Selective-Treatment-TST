@@ -16,7 +16,9 @@ ThemeEM_XY <- theme_bw() +
         axis.line = element_line(size = 0.5, colour = "black"))
 Consecu <- read_csv("Consecu.csv")
 inter<-ggplot(data = Consecu,aes(x=Consecutive, y= Frequency, fill=TST))+
-  geom_bar(stat="identity", position = "dodge")+
+  geom_bar(stat="identity", position = "dodge")+scale_fill_manual(values = c(Drug = "#000000", Plant = "#06A64F"),name="Group:",
+                                                                  breaks=c("Drug", "Plant"),
+                                                                  labels=c("TST-Drug", "TST-Plant & Drug"))+
   labs(x = "Consecutive Drug Interventions")+
   ThemeEM_XY
 inter
