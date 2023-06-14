@@ -1,3 +1,4 @@
+Plants <- read_csv("Plants.csv")
 ggplot(Plants, aes(Percent, Name, fill=Availability)) +
   geom_col() +
   ThemeEM_Facet +
