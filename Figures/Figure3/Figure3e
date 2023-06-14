@@ -19,7 +19,7 @@ grams$Plant <-factor(grams$Plant, levels = c("Ficus ingens", "Commiphora african
 grams$Treatment <-factor(grams$Treatment, levels = c("Whole herd", "TST-Plant"))
 grams1<-ggplot(data=grams, aes(x =Treatment, y=kg, fill =Plant))+
   geom_bar(position= "stack", stat = "identity")+
-  labs(y = "Tonnes provided / year", x = "Plant supplementation")+
-  annotate("text", x=1, y=5750, label= "N=5.64 t") + 
+  labs(y = "Plant provided (year)", x = "Plant supplementation")+
+  annotate("text", x=1, y=5750, label= "N=5.91 t") + 
   annotate("text", x = 2, y=300, label = "N=0.13 t")+ThemeEM_XY
 grams1
