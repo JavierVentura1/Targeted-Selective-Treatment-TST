@@ -15,8 +15,10 @@ ThemeEM_XY <- theme_bw() +
         panel.border = element_rect(linetype = "blank", fill = NA),
         axis.line = element_line(size = 0.5, colour = "black"))
 Mana <- read_csv("Mana.csv")
-Mana$Management <-factor(Mana$Management, levels = c("Whole herd", "TST-Drug", "TST-Plant&Drug"))
+Mana$Management<-factor(Mana$Management, levels = c("Whole","DTST","PTST"))
 inter2<-ggplot(data = Mana,aes(x=Management, y= Frequency, fill=Management))+
-  geom_bar(stat="identity", position = "dodge")+
-  labs(x = "Deworming management", y = "Anthelmintic doses/year")
+  geom_bar(stat="identity", position = "dodge")+scale_fill_manual(values = c(Whole= "#FFFFFF",DTST= "#000000", PTST= "#06A64F"),name="Group:",
+                                                                  breaks=c("Whole","DTST", "PTST"),
+                                                                  labels=c("Whole herd","TST", "Plant-TST"))+
+  labs(x = "Deworming management")
 inter2
