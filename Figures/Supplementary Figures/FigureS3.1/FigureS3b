@@ -17,7 +17,6 @@ ThemeEM_XY <- theme_bw() +
 d3 <- read_csv("d3.csv")
 d3$time2 <-factor(d3$time2, levels = c("Jan-20", "Feb-20", "Mar-20", "Apr-20","May-20", "Jun-20","Jul-20","Aug-20","Sep-20","Oct-20","Nov-20","Dec-20", "Jan-21", "Feb-21", "Mar-21"))
 d3$BCS <-factor(d3$BCS, levels = c("3.5","3","2.5","2","1.5","1"))
-BCS<-ggplot(d3, aes(x = factor(time2), y = perc*100, fill = factor(BCS))) +
+ggplot(d3, aes(x = factor(time2), y = perc*100, fill = factor(BCS))) +
   geom_bar(stat="identity", width = 0.7) +
-  labs(x = "Time", y = "BCS (score %)", fill = "BCS") + scale_fill_viridis_d(option = "turbo") +ThemeEM_XY+facet_grid(~TST)
-BCS
+  labs(x = "Time", y = "BCS (% score)", fill = "BCS") +  scale_fill_manual(values = c("#0752A2", "#25ABE2", "#79CAF1", "#DBE8F7", "#FFCB05", "#D61F26","#90191C")) + facet_grid(~TST) + ThemeEM_XY
